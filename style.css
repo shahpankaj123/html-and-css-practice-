@@ -1,0 +1,73 @@
+body{
+			background-color: gray;
+		}
+		.main{
+			text-align: center;
+			border: 3px solid rgb(5, 100, 20);
+			
+
+		}
+
+		h3{
+			color: rgb(40, 50, 60);
+			
+		}
+		footer{
+			border: 2px solid green;
+			padding-left: 5px;
+		}
+		h4{
+			text-align:right;
+		}
+		.option{
+			border: 2px solid green;
+			margin: 5px;
+			text-decoration: none;
+			word-spacing: 10px;
+			padding: 5px;
+
+
+
+		}
+		button{
+			background-color: gray;
+			transform: translate(1250px);
+		}
+		button:hover{
+			color: green;
+		}
+		
+		}
+
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			background-color: black;
+			color: green;
+		}
+		a:active{
+			color: black;
+		}
+		
+
+		.main{
+			text-align: center;
+			border: 3px solid rgb(5, 100, 20);
+			background-color: gray;
+		}
+		
+		form{
+			margin: 5px;
+			padding: 5px;
+			width: 400px;
+			box-shadow: 5px 5px 3px blueviolet;
+			margin: auto;
+			margin-top: 75px;
+		}
+		.image{
+			border-radius: 5px;
+			border: 2px solid slateblue;
+			padding: 5px;
+			border-width: 30px;
+		}

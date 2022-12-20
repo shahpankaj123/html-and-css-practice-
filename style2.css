@@ -1,0 +1,111 @@
+ 
+		.nav{
+			border: 1px solid black;
+			background-color: dimgrey;
+			border-radius: 5px;
+			
+		
+		}
+		 .nav ul{
+		 	overflow: auto;
+		 }
+		
+		
+		li{
+			float: left;
+			display: flex;
+			padding: 4px 10px;
+			
+		}
+		
+		.nav ul li a{
+			display: flex;
+			text-decoration: none;
+			color: white;
+			border: 1px solid black;
+			border-radius: 5px;
+			border-width: 3px;
+			
+		}
+		.nav ul li a:hover{
+			background-color: black;
+			color: white;
+		}
+		.search{
+			padding-left:1220px ;
+
+		}
+		input{
+			padding: 5px;
+			border-radius: 5px;
+
+		}
+		.profile{
+			border: 2px solid rgb(5, 100, 20);
+			border-radius: 5px;
+			
+		}
+		.profile p{
+			padding: 5px;
+			text-align: justify;
+		}
+		.profile h2{
+			padding-left: 20px;
+		}
+		.profile img{
+			
+			border-radius: 8px;
+			padding-left: 16px;
+		}
+		.main{
+			text-align: center;
+			border: 2px solid rgb(5, 100, 20);
+			padding: 5px;
+			margin: 5px;
+			border-radius: 3px;
+
+		}
+		.ser h1{
+			text-align: center;
+
+		}
+		.box{
+			border: 1px solid gainsboro;
+			border-width: 16px;
+			width: 450px;
+			float: left;
+		}
+		.box img{
+			display: block;
+			margin: auto;
+			padding: 5px;
+		}
+		.box p{
+			text-align: center;
+			padding: 5px;
+		}
+		.copy{
+			margin-top: 67px;
+		}
+		.copy p{
+			text-align: center;
+			margin: 10px;
+
+		}
+		.leg{
+			text-align: center;
+			padding: 5px;
+			margin: 5px;
+		}
+		.leg img{
+			padding: 5px;
+		}
+		form{
+			margin: auto;
+			margin-top: 100px;
+			width: 400px;
+			box-shadow: 5px 5px 5px 5px dimgrey;
+			
+		}
+
+	
