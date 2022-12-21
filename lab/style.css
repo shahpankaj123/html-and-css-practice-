@@ -1,4 +1,4 @@
-*{
+        *{
 			margin: 0px;
 			padding: 0px;
 		}
@@ -44,26 +44,25 @@
          }
          .container p{
          	font-size: 35px;
-         	padding: 35px 70px;
+         	padding: 35px 200px;
          }
          .dev{
-         	height: 450px;
+         	height: 480px;
          }
          
          .dev .dev1{
-         	width: 70%;
+         	width: 60%;
+         	float: left;
          	margin-top: 100px;
-         	margin-left:75px ;
+         	margin-left:55px ;
          }
          .dev .dev2{
          	width: 25%;
          	float: right;
          	background-color: black;
          	color: white;
-         	padding: 15px;
-         	
-         	margin-top: -250px;
-         	margin-right:50px ;
+         	margin-right:30px ;
+         	margin-top: 50px;
          	font-size: 25px;
 
          }
