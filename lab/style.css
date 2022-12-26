@@ -15,19 +15,17 @@
 			overflow: auto;
 		}
 		.navbar ul{
-           overflow: auto;
+           
            padding-left: 60px;
 		}
 		.navbar ul li a{
 			text-decoration: none;
-			display: block;
 			color: black;
 
 
 		}
 		.navbar ul li{
 			float: left;
-			display: flex;
 			padding: 5px 15px;
 			margin: 5px;
 			font-size: 20px;	
@@ -64,6 +62,7 @@
          	margin-right:30px ;
          	margin-top: 50px;
          	font-size: 25px;
+         	overflow: auto;
 
          }
          .dev1 h3{
@@ -76,7 +75,7 @@
 
          }
          .foot{
-         	height: 60px;
+         	height: 50px;
          	background-color: black;
          	color: white;
          	text-align: center;
