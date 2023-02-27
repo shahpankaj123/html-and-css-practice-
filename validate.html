@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            margin-left: 50%;
+            padding: 5px;
+            margin-top: 20%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+        <span id="ses">AM</span>
+    </div>
+    
+</body>
+<script>
+    function watch(){
+        var dtime = new Date();
+        var hrs=dtime.getHours();
+        var min=dtime.getMinutes();
+        var sec=dtime.getSeconds();
+        var ses="";
+        if(hrs>=12)
+        {
+             ses="pm";
+             hrs=hrs-12;
+        }
+        else{
+            ses="am";
+        }
+
+        document.getElementById('hours').innerHTML=hrs;
+        document.getElementById('min').innerHTML=min;
+        document.getElementById('sec').innerHTML=sec;
+        document.getElementById('ses').innerHTML=ses;
+    }
+    setInterval(watch,10);
+    
+</script>
+</html>
