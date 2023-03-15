@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="top"><br>
+        <input type="text" id="left">
+        <input type="submit" onclick="move()">
+    </form>
+    <div id="pic">
+        <img scr="3.jpg" alt="images">
+    </div>
+</body>
+<script>
+    function move(){
+    var x=document.getElementById('top').value;
+    var y=document.getElementById('left').value;
+    document.getElementById('pic').style.top=x+"px";
+    document.getElementById('pic').style.left=y+"px";
+    }
+</script>
+</html>

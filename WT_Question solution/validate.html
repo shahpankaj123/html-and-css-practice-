@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return validate()" action="clock.html">
+        <input type="text" id="email"><span id="error" style="color:red;"></span><br>
+        <input type="password" id="pass"><span id="error1" style="color:red;"></span><br>
+        <input type="submit">
+    </form>
+</body>
+<script>
+    function validate()
+    {
+        var error=true;
+        var email=document.getElementById("email").value;
+        var pass=document.getElementById("pass").value;
+
+        if(email=="")
+        {
+            document.getElementById("error").innerHTML="empty input";
+            error=false;
+
+        }
+        if(pass=="")
+        {
+            document.getElementById("error1").innerHTML="empty input";
+            error=false;
+
+        }
+        if(!email.match(/^[a-z A-Z 0-9 ]{6,}@{1}[a-z A-Z]{5,9}.{1}[a-z A-Z]{3,6}$/))
+        {
+            document.getElementById("error").innerHTML="pattern not match";
+            error=false;
+
+        }
+        if(!pass.match(/^[a-zA-Z0-9]{8,15}$/))
+        {
+            document.getElementById("error1").innerHTML="please make password strong";
+            error=false;
+        }
+        return error;
+    }
+</script>
+</html>
