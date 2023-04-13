@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return validate()" action="2014 2.a.html">
+        <label>email:</label>
+        <input type="text" id="email"><span style="visibility: hidden; color: red;" id="ale">&nbsp; -pattern donot match</span><br>
+        <input type="submit" >
+    </form>
+</body>
+<script>
+    function validate()
+    {
+        var num=document.getElementById('email').value;
+        var patern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        f
+        if(patern.test(num)){
+            return true;  
+        }
+        else{
+            document.getElementById('ale').style.visibility="visible";
+            return false;
+        }
+    }
+</script>
+</html>

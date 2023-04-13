@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="pankaj websites">
+	<meta name="keyboard" content="personal websites">
+
+	<title>Welcome to my websites</title>
+	
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="stylesheet"  media="screen and (max-width: 1100px)" type="text/css" href="phone.css">
+
+	<link rel="shortcut icon" href="logo2.webp" type="image/x-icon">
+</head>
+<body>
+     <header class="nav" id="nave">
+     	   
+			<ul>
+				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#Contact">Contact</a></li>
+				<h3>Pankaj Shah</h3>	
+			</ul>	
+	</header>
+	<section class="mainbody" id="mb">
+	
+		<img src="6.svg" height="120px">
+		<p><b>Pankaj Shah</b></p>
+		<div class="pic" id="pc">
+		<img src="7.webp" height="40px" width="200px"></div>
+		<p>IT Student of Nepal</p>
+	</section>
+
+	<section id="Portfolio" class="port" onmouseenter="use()" onmouseleave="unused()">
+		<p><b>Portfolio</b></p>
+	<div class="p1" id="i1">
+		<img src="1.jpg" height="230px" width="230px" title="Riding">
+		<img src="2.jpg" height="230px" width="230px" title="Gaming">
+		<img src="3.jpg" height="230px" width="230px" title="Traveling">
+	</div>
+	<div class="p2">
+		<img src="4.jpg" height="230px" width="230px" title="Eating">
+		<img src="5.jpg" height="230px" width="230px" title="village">
+		<img src="8.jpg" height="230px" width="230px" title="saving">
+	</div>
+	</section>
+
+	<section id="About" class="abt">
+		<div class="a2" id="j2" onmouseenter="about()" onmouseleave="about1()">
+		<p><b>About</b></p>
+          </div>
+		<div class="a1" id="j1">
+		<p><b>Hello! I am Pankaj Shah.IT Student From Nepal.</b></p></div>
+		<div class="a3" id="j3">
+		<p><b>Thank You for visiting my personal websites.</b></p>
+
+	</div>
+
+	</section>
+	<section id="Contact" onmouseenter="con()" onmouseleave="con1()">
+		
+		<p><b>Contact</b></p>
+		<form>
+		<fieldset>
+			
+		<label>Name: </label>
+		<input type="text" name="Full name" placeholder="Enter your Name"><br><br>
+		<label>Father Name: </label>
+		<input type="text" name="Father name"><br><br>
+		<label>Age:</label>
+		<input type="number" name="Age" min="0" max="100"><br><br>
+	    <label>Gender:</label>
+	    <input type="radio" name="gender">m
+	    <input type="radio" name="gender">f<br><br>
+	    <label>coutry</label>
+	    <select>
+	    	<option>Nepal</option>
+	    	<option>India</option>
+	    	<option>China</option>
+	    </select><br><br>
+	    <button onclick="sender()">Send</button>
+
+		
+	</fieldset>
+
+
+	</form>
+	</section>
+	<footer class="foot" id="ft">
+		<div class="f1" id="k1" >
+			<div id="d1">
+			<p>Location</p></div>
+			<p>Kathmandu,Nepal<br> Lalitpur</p>
+		</div>
+		<div class="f2" id="k2">
+			<div id="d2">
+			<p>About me</p></div>
+			<p>I love coding and reading books.</p>
+		</div>
+		<div class="f3" id="k3">
+			<div id="d3">
+		<p>Around the web</p></div>
+		<a href="https://www.instagram.com/aryanshah228/" target="_blank">
+ 		<img src="instragramlogo.webp" height="25px" width="25px">
+ 		</a>
+ 		<a href="https://github.com/shahpankaj123" target="_blank">
+ 		<img src="gitlogo.png" height="25px" width="25px">
+ 		</a>
+ 		<a href="https://www.facebook.com/profile.php?id=100015184608886" target="_blank">
+ 		<img src="fblogo.webp" height="25px" width="25px">
+ 		</a>
+ 		<a href="https://www.linkedin.com/in/pankaj-shah-901a98219/" target="_blank">
+ 		<img src="linkdinlogo.png" height="25px" width="25px">
+ 		</a>
+		</div>
+		
+		
+	</footer>
+	
+</body>
+<script type="text/javascript">
+	function sender() {
+		alert("Information Recorded Sucessfull!!!");
+	}
+	function use(){
+
+		document.getElementById("Portfolio").style.color="blue";
+	}
+	function unused(){
+
+		document.getElementById("Portfolio").style.color="green";
+	}
+	function about(){
+
+		document.getElementById("j2").style.color="red";
+	}
+	function about1(){
+
+		document.getElementById("j2").style.color="blue";
+	}
+	function con(){
+
+		document.getElementById("Contact").style.color="blue";
+	}
+	function con1(){
+
+		document.getElementById("Contact").style.color="green";
+	}
+</script>
+</html>
